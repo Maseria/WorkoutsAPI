@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Fitness Today</h1>
+            <p>Get personalized training plans, nutrition tips, and progress tracking.</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Workout Cards Section -->
+    <section class="workouts">
+        <div class="workout-card">
+            <img src="hiit-workout.jpg" alt="HIIT Workout">
+            <div class="card-content">
+                <h3>HIIT Training</h3>
+                <p>Level: Intermediate</p>
+                <button class="cta-button">Start Workout</button>
+            </div>
+        </div>
+        <div class="workout-card">
+            <img src="strength-workout.jpg" alt="Strength Training">
+            <div class="card-content">
+                <h3>Strength Training</h3>
+                <p>Level: Beginner</p>
+                <button class="cta-button">Start Workout</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Chart Section -->
+    <section class="progress">
+        <h2>Your Fitness Progress</h2>
+        <canvas id="workout-progress"></canvas>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
