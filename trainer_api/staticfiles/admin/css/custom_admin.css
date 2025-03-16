@@ -1,0 +1,29 @@
+/* Change entire background color */
+body {
+    background-color: #1e1e2f !important;  /* Dark Theme */
+    color: white !important;
+}
+
+/* Change the top navigation bar */
+#header {
+    background-color: #282a36 !important;
+    color: white !important;
+}
+
+/* Change the sidebar */
+#nav-sidebar {
+    background-color: #3a3f58 !important;
+}
+
+/* Change all buttons */
+.button, input[type="submit"], input[type="button"] {
+    background-color: #ff6b6b !important;  /* Red buttons */
+    color: white !important;
+    border-radius: 5px;
+}
+
+/* Change tables */
+table {
+    background-color: #44475a !important;
+    color: white !important;
+}
