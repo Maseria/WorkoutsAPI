@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Nutrition</title>
+</head>
+<body>
+    <h2>Add a New Meal</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- Renders the form fields -->
+        <button type="submit">Add Nutrition</button>
+    </form>
+</body>
+</html>
