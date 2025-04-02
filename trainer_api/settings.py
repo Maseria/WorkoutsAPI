@@ -87,6 +87,7 @@ CSRF_TRUSTED_ORIGINS = [
     "http://0.0.0.0:3000",
     "http://127.0.0.1:3000",
     "http://192.168.1.67:3001",
+    "https://trainappi.azurewebsites.net"
 ]
 
 ROOT_URLCONF = 'trainer_api.urls'
