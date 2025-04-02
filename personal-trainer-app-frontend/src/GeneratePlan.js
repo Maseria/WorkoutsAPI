@@ -15,7 +15,7 @@ const GeneratePlan = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:8000/api/generate-plan/', {
+      const response = await fetch('https://trainappi.azurewebsites.net/api/workouts/generate-plan/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
