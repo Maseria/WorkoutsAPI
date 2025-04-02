@@ -128,9 +128,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # STATIC FILES SETTINGS
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "static",  # Ensure this directory exists
-]
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
