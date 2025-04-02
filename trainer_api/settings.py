@@ -58,7 +58,7 @@ MIDDLEWARE = [
 
 # CORS SETTINGS (Cross-Origin Resource Sharing)
 CORS_ALLOWED_ORIGINS = [
-    "http://0.0.0.0:3000",  # React Frontend
+    "http://54.156.147.48:3000",  # React Frontend
     "http://127.0.0.1:3000",
     "http://192.168.1.67:3001",  # Your local IP address
 ]
